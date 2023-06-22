@@ -13,9 +13,10 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
   </head>
 
   <body>
+    <nav class="navbar" style="background-color: #e3f2fd;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-      <%= link_to 'Mi portafolio', '/', class: 'quitar-formato'%>
+      <%= link_to 'MI PORTAFOLIO', '/', class: 'quitar-formato'%>
          <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -23,13 +24,16 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
+        <%= link_to 'Proyectos', proyectos_path %>
         <a class="nav-link" href="#">Pricing</a>
         <a class="nav-link disabled">Disabled</a>
       </div>
     </div>
   </div>
 </nav>
+</nav>
+
+
 
       <div class="container">
       <%= yield %>
@@ -40,8 +44,6 @@ integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSS
 UnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
 integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
-
 
   </body>
 

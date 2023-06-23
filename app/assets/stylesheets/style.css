@@ -3,6 +3,10 @@ body{
     background: linear-gradient(to right, #dceff5, #6e9aa2); 
 }
 
+h1 {
+    text-align: center;
+}
+
 .quitar-formato {
     text-decoration: none;
     }
@@ -24,8 +28,13 @@ body{
         height: 250px;
         width: 200px;
     }
+    .yooro {
+        height: 200px;
+        width: 300px;
+    }
     .card {
         background-color: rgb(28, 64, 52) !important;
         color: white;
+        max-width: 900px;
     }
       

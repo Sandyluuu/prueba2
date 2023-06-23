@@ -1,5 +1,23 @@
 
+body{
+    background: linear-gradient(to right, #dceff5, #6e9aa2); 
+}
+
 .quitar-formato {
     text-decoration: none;
     }
+.card{
+    margin: 10px;
+}
+    .btn{
+    background-color: darkcyan !important;
 
+    }
+    .btn:hover {
+        background-color: rgb(8, 65, 67) !important;
+    }
+
+    .imagen {
+        height: 200px;
+      }
+      

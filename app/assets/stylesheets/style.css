@@ -20,4 +20,12 @@ body{
     .imagen {
         height: 200px;
       }
+    .yop {
+        height: 250px;
+        width: 200px;
+    }
+    .card {
+        background-color: rgb(28, 64, 52) !important;
+        color: white;
+    }
       

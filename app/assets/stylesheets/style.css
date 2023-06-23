@@ -15,6 +15,7 @@ h1 {
 }
     .btn{
     background-color: darkcyan !important;
+    align-items: endgit;
 
     }
     .btn:hover {
@@ -35,6 +36,10 @@ h1 {
     .card {
         background-color: rgb(28, 64, 52) !important;
         color: white;
-        max-width: 900px;
+        max-width: 1000px;
+        align-items: center;
     }
-      
+
+    
+
+  

@@ -1,26 +1,12 @@
-# README
+ 
+  <div id='header' align= 'center'>
+ 👋 Hi, I’m Sandra
+ </div>
+<br>
+ 
+  - Nutritionist 🍊 studying programming, 💎 [Ruby on Rails](https://rubyonrails.org/) to be specific 😶‍🌫️
+- 👀 I’m interested in Web design
+- 🌱 I’m currently learning HTML, CSS, Ruby
+- 📫 How to reach me: sandra.campos@outlook.cl
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# prueba2
-# portafolio2
+![GitHub top language](https://img.shields.io/github/languages/top/Sandyluuu/Michis)

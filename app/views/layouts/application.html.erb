@@ -15,37 +15,32 @@ href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
   </head>
 
   <body>
-    <nav class="navbar" style="background-color: #e3f2fd;">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-      <%= link_to 'MI PORTAFOLIO', '/', class: 'quitar-formato'%>
-         <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <%= link_to 'Acerca de mi', root_path, class:'nav-link' %>
-        <%= link_to 'Proyectos', proyectos_path, class: 'nav-link' %>
-        <%= link_to 'Contacto', contacto_path, class: 'nav-link' %>
-      </div>
+  <nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+  <i class="fa-brands fa-nutritionix fa-2xl" style="color: #80ffff;"></i>
+    <%= link_to 'SANDRA CAMPOS G', '/', class: 'navbar-brand'%>
+    <div class="navbar-nav ml-auto d-flex align-items-center">
+      <%= link_to 'Acerca de mi', root_path, class: 'nav-link mx-2' %>
+      <%= link_to 'Proyectos', proyectos_path, class: 'nav-link mx-2' %>
+      <%= link_to 'Contacto', contacto_path, class: 'nav-link mx-2' %>
     </div>
   </div>
 </nav>
-</nav>
-
-
 
       <div class="container">
       <%= yield %>
       </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/367b5eaef6.js" crossorigin="anonymous"></script>
     <script
 src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSS
 UnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
 integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   </body>
 
 

@@ -24,16 +24,16 @@ h1 {
     }
 
     .imagen {
+        width: 200px;
         height: 200px;
+        object-fit: cover;
       }
     .yop {
         height: 250px;
         width: 200px;
+        object-fit: cover;
     }
-    .yooro {
-        height: 200px;
-        width: 300px;
-    }
+ 
     .card {
         background-color: rgb(28, 64, 52) !important;
         color: white;
